@@ -1,0 +1,148 @@
+header{
+    background-color: #E2B4BD;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #FFF5F5;
+}
+.header-menu{
+    background-color: #F7D6D0;
+    border-radius: 15px;
+}
+.header-menu h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.menu div{
+    background-color: #E2B4BD;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.menu h3{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.menu p,label{
+    font-size: 19px;
+}
+.customer{
+    background-color: #F7D6D0;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.customer h2{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.customer input{
+    width: 99%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.menu input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.customer label{
+    font-size: 19px;
+}
+.payment{
+    background-color: #F7D6D0;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.payment h2{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.payment input{
+    width: 99%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+button{
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E2B4BD;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: #d5a69f;
+}
+.total{
+    background-color: #F7D6D0;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.total h2{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.total p{
+    font-size: 19px;
+}
+.struk h3{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+#status{
+    font-size: 19px;
+    font-weight: bold;
+}
+#struk {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+}
+@media (max-width: 600px) {
+    .menu {
+        grid-template-columns: 1fr;
+    }
+
+    .all {
+        width: 100%;
+    }
+}

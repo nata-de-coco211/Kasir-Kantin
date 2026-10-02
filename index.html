@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Kantin Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="all">
+    <header>
+        <h1>KASIR KANTIN SEKOLAH</h1>
+        <p>Selamat datang di Kantin Sekolah</p>
+    </header>
+    <div class="header-menu">
+        <h2>Daftar Menu</h2>
+        <div class="menu">
+            <div>
+                <h3>Nasi Goreng</h3>
+                <p>Rp15.000</p>
+                <label>Jumlah:</label>
+                <input type="number" id="nasi" min="0" value="0" >
+            </div>
+            <div>
+                <h3>Mie Goreng</h3>
+                <p>Rp12.000</p>
+                <label>Jumlah:</label>
+                <input type="number" id="mie" min="0" value="0">
+            </div>
+            <div>
+                <h3>Ayam Geprek</h3>
+                <p>Rp18.000</p>
+                <label>Jumlah:</label>
+                <input type="number" id="ayam" min="0" value="0">
+            </div>
+            <div>
+                <h3>Nasi Padang</h3>
+                <p>Rp15.000</p>
+                <label>Jumlah:</label>
+                <input type="number" id="padang" min="0" value="0">
+            </div>
+            <div>
+                <h3>Es Teh</h3>
+                <p>Rp5.000</p>
+                <label>Jumlah:</label>
+                <input type="number" id="esteh" min="0" value="0">
+            </div>
+            <div>
+                <h3>Air Mineral</h3>
+                <p>Rp3.000</p>
+                <label>Jumlah:</label>
+                <input type="number" id="air" min="0" value="0">
+            </div>
+        </div>
+    </div>
+
+    <div class="customer">
+        <h2>Data Pelanggan</h2>
+        <label for="nama">Nama Pelanggan: </label>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+    </div>
+    <div class="payment">
+        <h2> Pembayaran</h2>
+        <label for="bayar">Jumlah Uang:</label>
+        <input type="number" id="bayar" placeholder="Masukkan jumlah uang">
+        
+        <button class="btn" type="button" id="hitung" onclick="hitungTotal()">HITUNG TOTAL</button>
+    </div>
+    <div class="total">
+        <h2>Total Pembayaran</h2>
+        <p>Subtotal: <span id="subtotal">Rp0</span></p>
+        <p>Diskon: <span id="diskon">Rp0</span></p>
+        <p>Total: <span id="total">Rp0</span></p>
+        <p id="status"></p>
+        <hr>
+        <div class="struk">
+            <h2>Struk Pembayaran</h2>
+            <p>Nama Pelanggan: <span id="strukNama">-</span></p>
+            <p>Subtotal: <span id="strukSubtotal">Rp0</span></p>
+            <p>Diskon: <span id="strukDiskon">Rp0</span></p>
+            <p>Total Bayar: <span id="strukTotal">Rp0</span></p>
+            <p>Uang Bayar: <span id="strukBayar">Rp0</span></p>
+            <p>Kembalian: <span id="strukKembalian">Rp0</span></p>
+            <h3> Terima Kasih</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
