@@ -86,7 +86,7 @@ function hitungTotal() {
     document.getElementById("strukSubtotal").innerText =
         formatRupiah(subtotal);
     document.getElementById("strukDiskon").innerText =
-        formatRupiah(diskon) + " (" + persenDiskon + "%)";
+        formatRupiah(diskon);
     document.getElementById("strukTotal").innerText =
         formatRupiah(total);
     document.getElementById("strukBayar").innerText =
