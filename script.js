@@ -40,7 +40,7 @@ function hitungTotal() {
     document.getElementById("subtotal").innerText =
         formatRupiah(subtotal);
     document.getElementById("diskon").innerText =
-        formatRupiah(diskon) + " (" + persenDiskon + "%)";
+        formatRupiah(diskon);
     document.getElementById("total").innerText =
         formatRupiah(total);
     document.getElementById("strukBayar").innerText =
